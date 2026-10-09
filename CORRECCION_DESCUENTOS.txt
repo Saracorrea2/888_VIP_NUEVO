@@ -1,0 +1,16 @@
+CORRECCIÓN DE DESCUENTOS - 888 VIP POS
+
+- Las ventas nuevas empiezan con descuento $0.
+- Al agregar/cambiar/eliminar productos o cantidades, cualquier ajuste anterior se reinicia.
+- Un descuento solo se puede aplicar marcando "Aplicar ajuste/descuento manual".
+- El servidor también exige esa confirmación; no basta con enviar el formulario.
+- El valor por defecto del ajuste es exactamente el subtotal.
+
+Si ya existen ventas guardadas con descuentos que NO autorizaste:
+1. Abre phpMyAdmin -> base 888_vip -> SQL.
+2. Abre CORREGIR_DESCUENTOS_INDEBIDOS.sql.
+3. Ejecuta primero el SELECT para revisar.
+4. El script crea respaldo_descuentos_pedidos.
+5. Después ejecuta el UPDATE del paso 3 si confirmas que los descuentos son indebidos.
+
+No borres la tabla pedidos: es la tabla principal de las ventas del POS.

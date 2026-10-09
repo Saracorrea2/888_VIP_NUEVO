@@ -1,0 +1,8 @@
+CONFIGURACIÓN DE PAGOS BOLD
+
+Método interno: transferencia (se muestra como Bold).
+Comisión Bold: 1,49%.
+4x1000: 0,40%.
+Descuento total: 1,89%.
+La factura conserva el valor bruto; caja/reportes calculan el neto recibido para Bold.
+No se modifica la estructura de la base de datos ni se requiere importar SQL.

@@ -1,0 +1,18 @@
+.env
+.env.*
+*.log
+*.tmp
+*.bak
+*.zip
+Thumbs.db
+desktop.ini
+
+# Local XAMPP/editor files
+.vscode/
+.idea/
+
+# Dependencies/cache, if the project grows later
+vendor/
+node_modules/
+cache/
+tmp/

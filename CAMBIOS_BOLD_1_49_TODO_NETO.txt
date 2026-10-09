@@ -1,0 +1,13 @@
+888 VIP POS - CAMBIOS BOLD 1,49% + 4x1000
+
+- No se modifica la estructura de la base de datos.
+- No se debe importar nuevamente el SQL.
+- Transferencia se muestra como BOLD.
+- Para BOLD se descuenta 0,40% de 4x1000 y 1,49% de comisión.
+- Total descuento BOLD: 1,89%.
+- Se creó una función central ventaNeta() usada por Inicio, Reportes, Caja y factura.
+- Las ventas en efectivo, Nequi, Daviplata, tarjeta y Otro no tienen este descuento.
+- La factura conserva el TOTAL FACTURA bruto y muestra aparte el NETO RECIBIDO.
+- Reportes, Inicio y Caja muestran la VENTA NETA.
+- Las ventas Bold muestran debajo el bruto y los descuentos para auditoría.
+- La interfaz usa negro, dorado y un pie inferior con el logo 888 VIP sobre fondo negro translúcido.
